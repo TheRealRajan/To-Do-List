@@ -33,8 +33,8 @@ function addTodo(todo){
         }
         
         todoEl.innerText = todoText
-        const spann = `<span>Del</span>`
-        todoEl.appendChild(spann)
+        // const spann = `<span>Del</span>`
+        // todoEl.appendChild(spann)
         todoEl.addEventListener('click',()=>{
             todoEl.classList.toggle('completed')
             updateLS()
